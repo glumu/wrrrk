@@ -1,4 +1,4 @@
-# Webpack2 + React 15 + Redux + Router + Koa
+# ES6, Webpack2 + React 15 + Redux + Router + Koa
 
 自己玩的一整套前端开发环境。
 
@@ -13,7 +13,7 @@
 npm install
 ```
 
-4. 为了加快下载依赖包的速度，可以设置registry使用淘宝的源，这样比npm官方的快很多：
+4. 设置registry使用淘宝的源，这样比npm官方的快很多：
 ```
 npm config set registry http://registry.npm.taobao.org/
 ```
