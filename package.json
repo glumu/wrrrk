@@ -13,16 +13,8 @@
   "license": "ISC",
   "babel": {
     "presets": [
-      [
-        "latest",
-        {
-          "es2015": {
-            "loose": true,
-            "modules": false
-          }
-        }
-      ],
-      "stage-2"
+      "es2015",
+      "stage-0"
     ],
     "ignore": [
       "jquery.js",
@@ -47,9 +39,9 @@
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.1",
     "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.27.3",
     "eslint": "^3.18.0",
     "eslint-config-enough": "^0.2.5",

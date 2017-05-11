@@ -71,6 +71,7 @@ module.exports = (options = {}) => {
           use: [{
             loader: 'babel-loader',
             options: {
+			  presets: ['es2015', 'stage-0', 'react'],
               cacheDirectory: CACHE_PATH
             }
           }]
